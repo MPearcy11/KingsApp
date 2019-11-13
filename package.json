@@ -1,0 +1,29 @@
+{
+  "name": "kings_army_builder",
+  "version": "1.0.0",
+  "description": "Kings of War army builder app in MERN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Kings",
+    "of",
+    "War",
+    "MERN",
+    "Army",
+    "Builder",
+    "Mongodb"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MPearcy11/KingsApp.git"
+  },
+  "author": "Michael Pearcy",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.3.3"
+  }
+}
