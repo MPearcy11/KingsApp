@@ -1,0 +1,81 @@
+﻿{UNIT DOC
+unit:{
+        name:””,
+        page:””,
+        speed:"”,
+        me:”",
+        ra:”",
+        de:”",
+        troop_or_single:{
+                us:”",
+                att:”",
+                nerve:”",
+                Pts:””
+}
+        regiment{
+                us:"”,
+                att:"”,
+                nerve:”",
+                Pts:"”
+}
+         horde:{
+                us:”",
+                att:”".
+                nerve:”",
+                Pts:”"
+}
+        legion:{        
+                us:”",
+                att:”",
+                nerve:”",
+                Pts:”"
+}
+        Type_Attributes:{
+Id:“ref_id",
+Exception:””,
+}
+        specialRulesAndSpells:{
+                one:"ref_id”,
+                two:"ref_id”,
+                Three:"ref_id”
+                }
+        upgrades:”",
+        Keywords:”",        
+}
+}        
+
+
+{REF DOC
+unitType:{
+        modelCount:”",
+        dimensions:”",
+        height:”",
+        }
+
+
+specialRules:{
+        name:”",
+        ruleText:”",
+        page:”",
+}
+
+
+magicalArtifacts:{
+        name:”",
+        text:”",
+        Points:{
+                basePoints:””,
+                biggerUnitPoints:””,
+                },
+        page:”",
+        }
+
+
+Spells:{
+        name:”",
+        range:”",
+        targets:”",
+        effect:”",
+        modifiers:”",
+        }
+}
