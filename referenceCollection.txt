@@ -1,0 +1,600 @@
+{REF DOC
+unitType:{
+        modelCount:”",
+        dimensions:”",
+        height:”",
+        }
+
+
+specialRules:[
+	{name:”Aura (x)",
+        ruleText:”(x) refers to another special rule that the Aura grants to units around it. This unit and all Friendly Core units while within 6” of it have the (x) special rule. Note an Aura may have a further qualifier, in which case the Aura will only grant the special rule to the unit with that name or keyword in addition to the unit with the Aura itself. Effects of Auras of the same type are not cumulative. So, for instance, a unit covered by two Aura (Thunderous Charge(+1)) do not gain Thunderous Charge (+2).",
+        page:”",
+	},
+
+	{name:”Big Shield",
+        ruleText:”All attacks (Ranged and Melee) against the target unit’s front facing treat its defence as 6+.",
+        page:”",
+	},
+
+	{name:”Blast (n)",
+        ruleText:”If the unit’s attack hits the target, the target suffers a number of hits equal to the number in brackets, rather than a single hit. For example, if a unit suffers a hit from a Blast (D6+3) attack, it will suffer from four to nine hits rather than a single one. Once this is done, roll for damage as normal for all of the hits caused.",
+        page:”",
+	},
+
+	{name:”Brutal (n)",
+        ruleText:”When testing the Nerve of an enemy unit in Melee with one or more of your units with this rule, add the highest Brutal (n) value to the total rolled. If an enemy unit is subject to both the Brutal and Dread special rules, the attacking player must choose which to use. Both cannot be applied against the same unit at the same time.",
+        page:”",
+	},
+
+	{name:”Cloak of Death",
+        ruleText:”In the Movement phase, after this unit has completed its order, all Enemy units within 6” of this unit take an immediate point of damage. Units can only be damaged by a single source of Cloak of Death per Turn. No Nerve test is required for damage taken from a Cloak of Death",
+        page:”",
+	},
+
+	{name:”Crushing Strength (n)",
+        ruleText:”All hits caused by Melee attacks from this unit have a +(n) modifier when rolling to damage. For example: when rolling to damage with a Melee attack that has Crushing Strength (1), a roll of 4 would become a roll of 5.",
+        page:”",
+	},
+
+	{name:”Dread",
+        ruleText:”While within 6” of this unit, Enemy units have -1 to their Wavering and Rout Nerve values, in addition to any other modifiers that may apply. A unit can only be affected by a single source of Dread – multiple sources are not cumulative. If an Enemy unit is subject to both the Brutal and Dread special rules or the Shattering and Dread special rules, the attacking player must choose to use either the Brutal / Shattering or the Dread modifiers. Both cannot be applied against the same unit.",
+        page:”",
+	},
+
+	{name:”Duelist",
+        ruleText:”While attacking enemy Individuals in Melee, this unit doubles its number of Attacks.",
+        page:”",
+	},
+
+	{name:”Elite",
+        ruleText:”Whenever the unit rolls to hit, it must re-roll all dice that score a natural, unmodified 1.",
+        page:”",
+	},
+
+	{name:”Ensnare",
+        ruleText:”Melee attacks against the target unit’s front suffer an additional -1 to hit.",
+        page:”",
+	},
+
+	{name:”Fly",
+        ruleText:”The unit can move over anything (Blocking Terrain, Enemy units, Friendly units when charging, etc.), and may pivot while above anything, as long as the flying unit’s entire move ends clear of any units or Blocking Terrain. The unit does not suffer Hindered charges for moving over Difficult Terrain or Obstacles, unless it ends the move within or touching them. While Disordered, this unit cannot use the Fly special rule. In addition, if a unit with Fly also has the Nimble special rule, then the Nimble special rule is also lost while the unit is Disordered.",
+        page:”",
+	},
+
+	{name:”Frozen",
+        ruleText:”A unit with the Frozen special rule has -1 Sp until the end of its next turn, at which point the special rule is removed from the unit. No unit may have its speed reduced by more than -1 in a given turn due to having the Frozen special rule (although other modifiers may still apply). Frozen has no effect if the unit’s Sp is already 4 or below.",
+        page:”",
+	},
+
+	{name:”Fury",
+        ruleText:”While Wavering, this unit may still declare a Counter Charge.",
+        page:”",
+	},
+
+	{name:”Headstrong",
+        ruleText:”If a unit with this rule begins its turn Wavering, roll a die before declaring a Movement order (including Halt) for this unit. On a 3+ it shrugs off the effects of Wavering and is Disordered instead. Adjust any counters on the unit as required",
+	page:”",
+	},
+
+	{name:”Ignore Cover",
+        ruleText:”The unit fires in high arcs, hitting the target from the top, which means it does not suffer the -1 to hit modifier for enemy targets being in cover. Note that the firing unit does still need to have LoS to its target to fire at it.",
+	page:”",
+	},
+
+	{name:”Indirect Fire",
+        ruleText:”The unit cannot make Ranged attacks on targets that are within 12”",
+        page:”",
+	},
+
+	{name:”Individual",
+        ruleText:”",
+        page:”",
+	},
+
+	{name:”Inspiring",
+        ruleText:”If this unit, or any Friendly Core unit within 6” of this unit, suffers a Rout result, the opponent must re-roll that Nerve test. The second result stands. Note that a unit may also have a qualifier for its Inspiring rule. In this case the unit will only Inspire itself and the unit(s) specified.",
+        page:”",
+	},
+
+	{name:”Iron Resolve",
+        ruleText:”If this unit is Steady as a result of a Nerve test, it regains one point of damage previously suffered.",
+        page:”",
+	},
+
+	{name:”Lifeleech (n)",
+        ruleText:”When this unit completes its to-hit and to-damage rolls in Melee combat, it regains one point of damage it has previously suffered for every point of damage it causes on the enemy unit, up to a maximum of n. Lifeleech has a maximum total of 3.",
+        page:”",
+	},
+
+	{name:”Mighty",
+        ruleText:”Individuals with the Mighty special rule are no longer Yielding.",
+        page:”",
+	},
+
+	{name:”Mindthirst",
+        ruleText:”If this unit is within 12” of an enemy unit with the Inspiring or Very Inspiring special rule and it is Routed, the opponent must re-roll that Nerve test. The second result stands.",
+        page:”",
+	},
+
+	{name:”Nimble",
+        ruleText:”The unit can make a single extra pivot of up to 90 degrees around its centre while executing any Movement order, including a Charge. It cannot make this extra pivot when ordered to Halt. When Disordered by a unit in Melee with either the Phalanx or Ensnare special rule, this unit loses the Nimble special rule until the end of its following Turn.",
+        page:”",
+	},
+
+	{name:”Pathfinder",
+        ruleText:”The unit suffers no movement penalties for Difficult Terrain, simply treating it as Open Terrain in the Movement phase. Pathfinder units are not Hindered when making a Charge through Difficult Terrain.",
+        page:”",
+	},
+
+	{name:”Phalanx",
+        ruleText:”Units that Charge this unit’s front cannot use the Thunderous Charge special rule. In addition, Cavalry, Large Cavalry and units with the Fly special rule that make an unhindered Charge against this unit’s front suffer a -1 to hit modifier in the subsequent Melee.",
+        page:”",
+	},
+
+	{name:”Piercing (n)",
+        ruleText:”All hits caused by Ranged attacks with this rule from this unit have a +(n) modifier when rolling to damage. For example: when rolling to damage with a Ranged attack that has Piercing (1), a roll of 4 would become a roll of 5.",
+        page:”",
+	},
+
+	{name:”Pot Shot",
+        ruleText:”If this unit is given any order other than Halt in the Movement phase, any Ranged attacks with this rule that it makes are resolved with a -2 Moving modifier rather than the normal -1 Moving modifier.",
+        page:”",
+	},
+
+	{name:”Radiance of Life",
+        ruleText:”In the Movement phase, after this unit has completed its order, this unit and all Friendly Core units within 6” of this unit immediately remove one point of damage previously suffered. Units can only be affected by a single source of Radiance of Life per Turn.",
+        page:”",
+	},
+
+	{name:”Rallying (n)",
+        ruleText:”Friendly Core units within 6” of this unit have +n to their Wavering and Rout Nerve values. This is cumulative to a maximum total of +2 if multiple units with Rallying are in range. For example, if a unit with a Ne stat of 13/15 is within 6” of a unit with Rallying (1), its Nerve stat is 14/16. If it moves out of the 6” range, its Nerve stat is 13/15 again. Only the Rout value of a Fearless unit is affected by Rallying.",
+        page:”",
+	},
+
+	{name:”Regeneration (n)",
+        ruleText:”Every time this unit receives a Movement order (including Halt), before doing anything else, roll a number of dice equal to the amount of damage currently on the unit. For every result of (n) or higher, the unit recovers one point of damage previously suffered.",
+        page:”",
+	},
+
+	{name:”Reload",
+        ruleText:”The unit can only make ranged attacks if it received a Halt order in its previous Movement phase.",
+        page:”",
+	},
+
+	{name:”Scout",
+        ruleText:”The unit can make a single At the Double or Advance order after set-up is finished but before the first Turn of the first Round begins. If moving At the Double as part of this order, the unit treats Obstacles and Difficult Terrain as Open Terrain during the Scout movement. If both armies have units with this rule, both players roll a single die each. The highest scorer decides who begins to move one of their Scout units first, then the players alternate until all Scout units have been moved. Players then roll to determine who takes the first Turn in Round one as normal.",
+        page:”",
+	},
+
+	{name:”Shambling",
+        ruleText:”The unit cannot be given an At the Double Movement order, except when carrying out a Scout move.",
+        page:”",
+	},
+
+	{name:”Shattering",
+        ruleText:”If a unit is damaged by the ranged attacks of one or more units with this rule, add one to the subsequent Nerve test at the end of the Ranged phase. If an enemy unit is subject to both the Shattering and Dread special rules, the attacking player must choose to use either the Shattering or the Dread modifiers. Both cannot be applied against the same unit",
+        page:”",
+	},
+
+	{name:”Steady Aim",
+        ruleText:”The unit does not suffer from the -1 Moving modifier when making Ranged attacks.",
+        page:”",
+	},
+
+	{name:”Stealthy",
+        ruleText:”Enemy units making Ranged attacks against this unit suffer an additional -1 to hit modifier.",
+        page:”",
+	},
+
+	{name:”Strider",
+        ruleText:”This unit’s Charge is not Hindered when charging through, or ending its Charge on, Difficult Terrain or Obstacles.",
+        page:”",
+	},
+
+	{name:”Thunderous Charge (n)",
+        ruleText:”All Melee hits inflicted by this unit have a +(n) modifier when rolling to damage. This bonus is in addition to the unit’s Crushing Strength (if any). However, the unit loses this bonus when Disordered and reduces this bonus by one when Hindered (to a minimum of zero).",
+        page:”",
+	},
+
+	{name:”Very Inspiring",
+        ruleText:”This is the same as the Inspiring special rule, except that it has a range of 9”. Any rule that affects Inspiring also affects Very Inspiring.",
+        page:”",
+	},
+
+	{name:”Vicious",
+        ruleText:”Whenever the unit rolls to damage, it must reroll all dice that score a natural, unmodified 1.",
+        page:”",
+	}
+
+	{name:”Wild Charge (n)",
+        ruleText:”Models with this special rule may add (n) to their charge range. This is added after Sp is doubled. For instance, a unit with a Sp stat of 4 and Wild Charge (2) can Charge units up to 10” away. In some instances, the (n) value may be a variable die roll (e.g. Wild Charge (D3)). In these cases, before issuing a Movement order to this unit, roll a D3. If this unit is then issued a Charge order, it may add the result in inches to its total Charge range.",
+        page:”",
+	}
+],
+
+
+commonMagicalArtifacts:[{
+        name:”Blade of Slashing",
+        text:”Whenever the unit rolls to hit in Melee, it can re-roll one of the dice that failed to hit.",
+        Points:5,
+        page:”",
+	},
+	
+        {name:”Fire-Oil",
+        text:”The unit gains both the Crushing Strength special rule (+1 – vs. units with Regeneration ) and the Piercing special rule (+1 – vs. units with Regeneration).",
+        Points:5,
+        page:”",
+	},
+
+        {name:”Healing Brew",
+        text:”Once per game, when given a Movement order, the unit may roll a single die. On a 1-3 it regains one point of damage it previously suffered. On a result of 4-6 it regains two points of damage it previously suffered",
+        Points:5,
+        page:”",
+	},
+
+        {name:”Liliana's Tear",
+        text:”The unit is not affected by the Dread, Shattering or Brutal special rules on enemy units.",
+        Points:5,
+        page:”",
+	},
+
+        {name:”Mace of Crushing",
+        text:”Whenever the unit rolls to damage in Melee, it can re-roll one of the dice that failed to damage.",
+        Points:5,
+        page:”",
+	},
+
+        {name:”Staying Stone",
+        text:”The unit gains +1 to its Wavering stat value.",
+        Points:5,
+        page:”",
+	},
+
+        {name:”War-Bow of Kaba",
+        text:”The unit gains the following Ranged attack: War-Bow of Kaba: 24”, Att: 1, Ra: 4+, Piercing (1), Steady Aim",
+        Points:5,
+        page:”",
+	},
+
+        {name:”Hann's Sanguinary Scripture",
+        text:”The unit gains the Lifeleech (+1) special rule.",
+        Points:10,
+        page:”",
+	},
+
+        {name:”Mead of Madness",
+        text:”The unit gains the Wild Charge (+1) special rule.",
+        Points:10,
+        page:”",
+        },
+
+        {name:”Pipes of Terror",
+        text:”This unit gains the Brutal special rule.",
+        Points:10,
+        page:”",
+	},
+
+        {name:”Piercing Arrow",
+        text:”Whenever the unit rolls to damage with a Ranged attack, it can re-roll one of the dice that failed to damage.",
+        Points:10,
+        page:”",
+	},
+
+        {name:”Aegis of the Elohi",
+        text:”The unit gains the Iron Resolve special rule. If it already has Iron Resolve, it increases the amount of damage regained each time Iron Resolve is used to two",
+        Points:15,
+        page:”",
+	},
+
+        {name:”Blood of the Old King",
+        text:”Once per game, the unit gains Elite (Melee) and Vicious (Melee) for one Turn. This must be declared before the unit rolls any attacks. For each die re-rolled, the unit receives an immediate point of damage on itself. No Nerve test is required for this self-inflicted damage",
+        Points:15,
+        page:”",
+	},
+
+        {name:”Chalice of Wrath",
+        text:”The unit gains the Fury special rule.",
+        Points:15,
+        page:”",
+	},
+
+        {name:”Dwarven Ale",
+        text:”The unit gains the Headstrong special rule.",
+        Points:15,
+        page:”",
+        },
+
+        {name:”Helm of Confidence",
+        text:”The unit gains the Inspiring (Self) special rule.",
+        Points:15,
+        page:”",
+	},
+
+        {name:”Sacred Horn",
+        text:”The unit gains an additional 3” range to all of its Auras",
+        Points:15,
+        page:”",
+	},
+
+        {name:”Sir Jesse's Boots of Striding",
+        text:”Once per game, this unit gains the Strider special rule until the end of the Turn.",
+        Points:15,
+        page:”",
+	},
+
+        {name:”Blessing of the Gods",
+        text:”The unit gains the Elite special rule.",
+        Points:[20,30],
+        page:”",
+        },
+
+        {name:”Brew of Haste",
+        text:”This unit increases its Speed stat by +1.",
+        Points:20,
+        page:”",
+	},
+
+        {name:”Chant of Hate",
+        text:”The unit gains the Vicious special rule.",
+        Points:[20,30],
+        page:”",
+	},
+
+        {name:”Dragonshard Shield",
+        text:”Once per game, when this unit carries out a Halt or Change Facing order, it may choose to increase its Defence by +2 to a maximum of 6+ until the start of its next Turn.",
+        Points:20,
+        page:”",
+	},
+
+        {name:”Hammer of Measured Force",
+        text:”In Melee, this unit will always damage the enemy on a 4+ regardless of any other modifiers.",
+        Points:20,
+        page:”",
+        },
+
+        {name:”Maccwar's Potion of the Caterpillar",
+        text:”This unit gains the Pathfinder special rule",
+        Points:20,
+        page:”",
+	},
+
+        {name:”The Scrying Gem",
+        text:”When starting to deploy their units, your opponent must deploy D3+1 units instead of a single one.",
+        Points:25,
+        page:”",
+	},
+
+        {name:”Diadem of Dragonkind",
+        text:”The unit gains the Fireball (8) spell.",
+        Points:30,
+        page:”",
+	},
+
+        {name:”Brew of Strength",
+        text:”The unit gains the Crushing Strength (+1) special rule.",
+        Points:[30,40],
+        page:”",
+        },
+
+        {name:”Brew of Sharpness",
+        text:”The unit has a +1 to hit modifier with Melee attacks.",
+        Points:[35,45],
+        page:”",
+	},
+
+        {name:”Wine of Elvenkind",
+        text:”The unit gains the Nimble special rule.",
+        Points:40,
+        page:”",
+	},
+
+        {name:”Crystal Pendant of Retribution",
+        text:”When the unit suffers a Rout result, all units in base contact with it suffer 2D6 hits at Piercing (3). These hits are resolved by the player that Routed the unit with the Crystal, which now has to (grudgingly, we’re sure) resolve the hits against their own unit(s). After the damage has been resolved, no Nerve test is taken by the damaged units – they proceed to Regroup, but cannot move directly forward D6” for their Regroup action, because they are deterred by the huge explosion.",
+        Points:50,
+        page:”",
+        }
+],
+
+heroicArtifacts:[
+        {name:”Conjurer's Staff",
+        text:”Whenever the unit rolls to hit with non-unique spells, it can re-roll one of the dice that failed to hit.",
+        Points:10,
+        page:”",
+	},
+
+        {name:”Darklord's Onyx Ring",
+        text:”Individuals only. The unit gains the Regeneration (6+) special rule.",
+        Points:10,
+        page:”",
+	},
+
+        {name:”Mournful Blade",
+        text:”Individuals only. The unit gains the Duelist special rule.",
+        Points:15,
+        page:”",
+	},
+
+        {name:”Trickster's Wand",
+        text:”The unit gains the Hex (2) spell. If this unit scores a hit with its Hex against an enemy Hero also carrying a Trickster’s Wand, the enemy’s Hex spell, granted by its Trickster’s Wand, cannot be used for the remainder of the game.",
+        Points:15,
+        page:”",
+	},
+
+        {name:”Blade of the Beast Slayer",
+        text:”The unit gains the Crushing Strength (+2 – vs. Large Infantry, Monstrous Infantry, Large Cavalry, Monsters and Titans) special rule.",
+        Points:20,
+        page:”",
+	},
+
+        {name:”Inspiring Talisman",
+        text:”The unit gains the Inspiring special rule.",
+        Points:20,
+        page:”",
+	},
+
+        {name:”Tome of Darkness",
+        text:”The unit gains the Surge (4) spell, or if the unit already has a Surge spell, its value is increased by 4.",
+        Points:20,
+        page:”",
+	},
+
+        {name:”Lute of Insatiable Darkness",
+        text:”The unit gains the Bane Chant (2) spell.",
+        Points:25,
+        page:”",
+	},
+
+        {name:”Zephyr Crown",
+        text:”The unit gains the Wind Blast (5) spell.",
+        Points:25,
+        page:”",
+	},
+
+        {name:”Boots of Levitation",
+        text:”The unit may still make Ranged attacks even after receiving an At the Double Movement order.",
+        Points:30,
+        page:”",
+	},
+
+        {name:”Boots of the Seven Leagues",
+        text:”Individuals only. The unit gains the Scout special rule.",
+        Points:30,
+        page:”",
+	},
+
+        {name:”Shroud of the Saint",
+        text:”The unit gains the Heal (3) spell, or if the unit already has a Heal spell, its value is increased by 3.",
+        Points:30,
+        page:”",
+	},
+
+        {name:”The Boomstick",
+        text:”The unit gains the Lightning Bolt (3) spell, or if the unit already has a Lightning Bolt spell, its value is increased by 3.",
+        Points:30,
+        page:”",
+	},
+
+        {name:”Wings of Honeymaze",
+        text:”Individuals only. The unit gains the Fly special rule and increases its Speed stat to 10, but decreases its Defence stat by -1 to a minimum of 2.",
+        Points:40,
+        page:”",
+	}
+],
+
+spells:[
+        {name:”Bane Chant",
+        range:”12",
+        targets:”Friendly, CC",
+        effect:”If one or more hits are scored, for the rest of the turn the unit gains Crushing Strength (+1). This effect only applies once – multiple castings on the same target have no additional effect.",
+	},
+
+        {name:”Drain Life",
+        range:”6",
+        targets:”Enemy, CC",
+        effect:”Roll to damage as normal. If one or more points of damage are scored, choose either the caster or a single Friendly Core unit within 6” of the caster. Remove one point of damage from the chosen unit for each point of damage dealt to the target. If this is cast into Melee, the target will not take a Nerve test at the end of the Ranged phase.",
+        modifiers:”Piercing (1)"
+	},
+
+        {name:”Enthral",
+        range:”18",
+        targets:”Enemy",
+        effect:”For each hit scored, the target Enemy unit is pulled 1” directly forward if the spellcaster is in the target unit’s front arc, directly sideways and toward the spellcaster if the spellcaster is in either of the target unit’s flank arcs, or directly backward if the spellcaster is in the target unit’s rear arc. The target stops 1" away from enemy units or just out of contact with Blocking Terrain and Friendly units. A unit can only be targeted by Enthral once per Turn. This spell has no effect on units with Speed 0.",
+	},
+
+        {name:”Fireball",
+        range:”12",
+        targets:”Enemy",
+        effect:”Roll to damage the enemy as normal.",
+        modifiers:”Hits on a 5+ against units in Cover or with Stealthy"
+	},
+
+        {name:”Heal",
+        range:”12",
+        targets:”Friendly, Self, CC",
+        effect:”For each hit, the target unit regains a point of damage that it has previously suffered.",
+	},
+
+        {name:”Hex",
+        range:”30",
+        targets:”Enemy",
+        effect:”Instead of causing damage, if one or more hits are scored, the target enemy unit is Hexed and receives two points of damage each time it scores a hit with a spell until the end of its next Turn. A Nerve test is not required for damage caused by this spell. This spell has no effect on Spellcaster: 0 units.",
+        modifiers:”"
+	},
+
+        {name:”Icy Breath",
+        range:”10",
+        targets:”Enemy",
+        effect:”Roll to damage the Enemy unit as normal. If one or more points of damage are dealt, the target Enemy unit is given the Frozen special rule.",
+        modifiers:”Hits on 5+ against units in Cover"
+	},
+
+        {name:”Lightning Bolt",
+        range:”24",
+        targets:”Enemy",
+        effect:”Roll to damage the enemy as normal.",
+        modifiers:”Piercing (1), Hits on a 5+ against units in Cover.",
+	},
+
+        {name:”Mind Fog",
+        range:”36",
+        targets:”Enemy",
+        effect:”Instead of causing damage, if one or more hits are scored, make a Nerve test for the target at the end of the Ranged phase as though damage had been caused.",
+	},
+
+        {name:”Surge",
+        range:”12",
+        targets:”Friendly",
+        effect:”For each hit, the target friendly Shambling unit moves straight forward a full inch (stopping just out of contact from Friendly units and Blocking Terrain). If applicable, the Fly special rule is not in effect for this movement. If this movement brings it into contact with an Enemy unit, treat this as a successful Charge against the enemy facing that has been contacted. However, the charged unit will not take any Nerve tests for any damage it might have taken in the previous Ranged phase. If, and only if, the surged unit contacts a corner of the Enemy unit and not the edge, determine which arc of the target unit the Leader Point of the surging unit is in before it moves and align to that side to attack. If two Enemy units are contacted at the same time, the attacking player may choose which unit is being charged. If the Surge move took the unit over an Obstacle or through Difficult Terrain, then it will be Hindered in the ensuing combat as normal. This spell has no effect on units with Speed 0.",
+	},
+
+        {name:”Weakness",
+        range:”24",
+        targets:”Enemy, CC",
+        effect:”Instead of causing damage, if one or more hits are scored, the target unit has a -1 modifier when rolling to damage enemy units during their next turn (any rolls the unit makes of natural six will still cause damage, however). This effect only applies once – multiple castings on the same target have no effect.",
+	},
+
+        {name:”Wind Blast",
+        range:”18",
+        targets:”Enemy",
+        effect:”For each hit the target enemy unit is pushed 1” directly backward if the spellcaster is in the target unit’s front arc, directly sideways and away from the spellcaster if the spellcaster is in either of the target unit’s flank arcs, or directly forward if the spellcaster is in the target unit’s rear arc. The target stops 1" away from enemy units or just out of contact with blocking terrain and friends. This spell has no effect on Speed 0 units.",
+	},
+
+        {name:”Bastion",
+        range:”12",
+        targets:”Friendly, Self, CC",
+        effect:”If one or more hits are scored, until the start of its next Turn, the target increases its Waver and Rout stat values by 1 and gains the Rallying (+1) special rule, to a maximum of 2.",
+	unique: true
+	},
+
+        {name:”Blizzard",
+        range:”30",
+        targets:”Enemy",
+        effect:”For each hit scored, roll a single D3. The combined total is the amount of attacks to roll for damage.",
+        modifiers:”Indirect, Piercing (1)",
+	unique: true
+	},
+
+        {name:”Bloodboil",
+        range:”12",
+        targets:”Enemy",
+        effect:”When rolling to hit, roll a number of dice equal to the amount of damage on the target unit.",
+        modifiers:”Piercing (1), Hits on a 5+ against units in Cover or with Stealthy.",
+	unique: true
+	},
+
+        {name:”Martyr's Prayer",
+        range:”12",
+        targets:”Friendly, CC",
+        effect:”For each hit scored, remove one point of damage that has been previously taken by the target and transfer it to the spellcaster. The spellcaster will not take a Nerve test for damage taken in this way.",
+	unique: true
+	},
+
+        {name:”Veil of Shadows",
+        range:”-",
+        targets:”Self",
+        effect:”If one or more hits are scored, the spellcaster gains the Aura (Stealthy) special rule until the start of the player’s next Turn.",
+	unique: true
+	}
+]
+}
